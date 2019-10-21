@@ -1,0 +1,4 @@
+The project is to implement a circuit connecting 2 micro-controllers (STM32F103C8) VIA I2C.
+One micro-controller is responsible for interfacing with a keypad and send the pressed key to the other micro-controller.
+The other micro-controller is responsible for interfacing with an LCD and receive the pressed key.
+the pressed key should appear on the LCD.
