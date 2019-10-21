@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Nokra\Google Drive\Embedded systems - AMIT Diploma\FINAL PROJECT\Code for keypad\KEYPAD.uvproj
+Project File Date:  10/21/2019
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_ld.s...
+compiling delay.c...
+compiling I2C.c...
+I2C.h(3): warning:  #1295-D: Deprecated declaration I2C_INIT - give arg types
+  void I2C_INIT();
+I2C.h(5): warning:  #1295-D: Deprecated declaration I2C_RECEIVE_BYTE - give arg types
+  char I2C_RECEIVE_BYTE();
+I2C.c(51): warning:  #550-D: variable "read" was set but never used
+        char read;
+I2C.c(86): warning:  #550-D: variable "READ" was set but never used
+        char ADDRESS, READ, DATA;
+I2C.c: 4 warnings, 0 errors
+compiling keypad.c...
+compiling main.c...
+I2C.h(3): warning:  #1295-D: Deprecated declaration I2C_INIT - give arg types
+  void I2C_INIT();
+I2C.h(5): warning:  #1295-D: Deprecated declaration I2C_RECEIVE_BYTE - give arg types
+  char I2C_RECEIVE_BYTE();
+main.c(33): warning:  #111-D: statement is unreachable
+        return 0;
+main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=1200 RO-data=284 RW-data=4 ZI-data=1636  
+FromELF: creating hex file...
+".\KEYPAD.axf" - 0 Error(s), 7 Warning(s).
+</pre>
+</body>
+</html>
